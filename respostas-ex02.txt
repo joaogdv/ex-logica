@@ -1,0 +1,13 @@
+let primeiroNumero = prompt("Digite um numero!")
+let segundoNumero = prompt("Digite outro numero!")
+
+const soma = primeiroNumero + segundoNumero
+
+console.log(soma) //o programa nao fara a soma dos numeros e apenas juntará os algarismos 
+
+//faz assim
+
+const valorA = (Number(prompt("digite um numero")))
+const valorB = (Number(prompt("digite outro numero")))
+const resultado = valorA + valorB
+console.log(resultado)
